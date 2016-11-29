@@ -5,11 +5,11 @@
     let collectable = window.opspark.collectable;
     
     let type = {
-        db: {assetKey: 'db', points: 10},
-        max: {assetKey: 'max', points: 20},
-        steve: {assetKey: 'steve', points: 30},
-        grace: {assetKey: 'grace', points: 40},
-        kennedi: {assetKey: 'kennedi', points: 50}
+        db: {assetKey: 'db', points: 1000},
+        max: {assetKey: 'max', points: 2000},
+        steve: {assetKey: 'steve', points: 3000},
+        grace: {assetKey: 'grace', points: 4000},
+        kennedi: {assetKey: 'kennedi', points: 5000}
     };
     
     /**
@@ -34,8 +34,12 @@
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
         
-        // example: 
-        //collectable.create(type.steve, 200, 170, 6, 0.7);
+        
+        
+        collectable.create(type.steve, 200, 170, 6, 5);
+        collectable.create(type.kennedi, 450, 60, 15, 250);
+        collectable.create(type.grace, 600, 200, 70, 0.01);
+        collectable.create(type.db, 100,100,0,0)
         
         
         
